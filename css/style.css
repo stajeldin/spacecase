@@ -67,6 +67,27 @@ p {
   }
 }
 
+/* MOBILE MEDIA QUERY */
+@media (min-width: 812px) {
+  .container {
+    width:375px;
+  }
+  .one-half {
+    width:46%;
+  }
+  .one-third {
+    width:29.33333%;
+  }
+  .one-fourth {
+    width:21%
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width:1170px;
+  }
+}
+
 /* HEADER */
 header {
   color#FFFFFF;
