@@ -162,7 +162,6 @@ header .hero {
     position:relative;
   }
   .benefits ul {
-    list-style-type: none;
     margin: 0 auto;
     padding:4em 0;
   }
@@ -171,13 +170,13 @@ header .hero {
     display: inline-block;
   }
   .benefits i {
-    color:#3498DB;
+    color:#FF892F;
     font-size:60px;
     margin:0;
     vertical-align: middle;
   }
   .benefits h2 {
-    color:#3498DB;
+    color:#FF892F;
   }
 
 
@@ -260,7 +259,7 @@ header .hero {
   font-style:italic;
 }
 
-/* TESTIMONIALS*/
+/* TESTIMONIALS */
 .testimonials {
   padding:4em 0;
   text-align: center;
@@ -281,7 +280,7 @@ header .hero {
   width:auto;
   margin:0;
 }
-.tesimonials blockquote:after {
+.testimonials blockquote:after {
   top: 100%;
   left: 13%;
   border: solid transparent;
@@ -300,7 +299,7 @@ header .hero {
   border-radius:50%;
   float: left;
   display: inline-block;
-  margin:20px 20px 0 0;
+  margin:20px 10px 0 0;
 }
 .testimonials p.name {
   float: left;
@@ -308,4 +307,7 @@ header .hero {
   text-align: left;
   font-size:13px;
   margin-top: 30px;
+}
+.lower {
+  margin-top: 20px;
 }
