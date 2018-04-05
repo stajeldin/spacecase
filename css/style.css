@@ -394,8 +394,8 @@ header .hero {
     height:100vh;
     width:14.66666667%;
     color:#FFFFFF;
-    background: #34495E;
-    background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
+    background: #2fe7ff;
+    background-image: linear-gradient(206deg, #18CEE5 0%, #2fe7ff 94%);
    float:left;
    position: fixed;
    display:block;
@@ -438,7 +438,7 @@ header .hero {
  /* LEFT NAVBAR SETTINGS */
 .left-nav .settings {
   position:absolute;
-  background:#22303E;
+  background:#18CEE5;
   width:100%;
   bottom:0;
   left:0;
@@ -585,4 +585,8 @@ header .hero {
    color: #333333;
    line-height: 18px;
    margin:5px 0 0;
+ }
+
+ .active {
+     background-color: #FF892F;
  }
