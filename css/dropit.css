@@ -59,3 +59,58 @@
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight:100;
  }
+
+ /* SettingMenu */
+.settingsmenu i {
+     list-style: none;
+     padding: 0;
+     margin:15px 0 0;
+     float: left;
+     display:inline-block;
+  }
+
+.settingsmenu .dropit-trigger { position: relative; }
+.settingsmenu .dropit-submenu {
+     position: absolute;
+     bottom: 100%;
+     right: 0; /* dropdown left or right */
+     z-index: 1000;
+     display: none;
+     min-width: 130px;
+     list-style: none;
+     margin: -140px 0 0;
+ }
+.settingsmenu .dropit-open .dropit-submenu {
+     display: block;
+     background: #FFFFFF;
+     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
+     border-radius: 4px;
+ }
+.settingsmenu .dropit-open .dropit-submenu:after {
+   content: " ";
+   position: absolute;
+   border-style: solid;
+   border-bottom-width: 0;
+   border-top-width: 8px;
+   border-color: #FFFFFF transparent;
+   display: block;
+   width: 0;
+   z-index: 1000;
+   bottom: -8px;
+   right: 10px;
+  }
+.settingsmenu .dropit-open .dropit-submenu li {
+   display: block;
+   margin-bottom: 15px;
+   margin-top: 15px;
+  }
+.settingsmenu .dropit-open .dropit-submenu li:last-child {
+   margin-bottom: 20px;
+   z-index: 1;
+  }
+.settingsmenu .dropit-open .dropit-submenu li a {
+   color:#009EB2;
+   text-decoration: none;
+   font-family: "Raleway", Helvetica, Arial, sans-serif;
+   font-weight:100;
+  }
