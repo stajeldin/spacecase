@@ -64,7 +64,7 @@
 .settingsmenu i {
      list-style: none;
      padding: 0;
-     margin:15px 0 0;
+     margin: 0px 0 0;
      float: left;
      display:inline-block;
   }
@@ -78,7 +78,7 @@
      display: none;
      min-width: 130px;
      list-style: none;
-     margin: -140px 0 0;
+     margin: -100px 0 0;
  }
 .settingsmenu .dropit-open .dropit-submenu {
      display: block;
@@ -90,22 +90,22 @@
    content: " ";
    position: absolute;
    border-style: solid;
-   border-bottom-width: 0;
-   border-top-width: 8px;
+   border-bottom-width: 10px;
+   border-top-width: 10px;
    border-color: #FFFFFF transparent;
    display: block;
    width: 0;
-   z-index: 1000;
-   bottom: -8px;
+   z-index: -1000;
+   bottom: 10px;
    right: 10px;
   }
 .settingsmenu .dropit-open .dropit-submenu li {
    display: block;
-   margin-bottom: 15px;
-   margin-top: 15px;
+   margin-bottom: 10px;
+   margin-top: 10px;
   }
 .settingsmenu .dropit-open .dropit-submenu li:last-child {
-   margin-bottom: 20px;
+   margin-bottom: 10px;
    z-index: 1;
   }
 .settingsmenu .dropit-open .dropit-submenu li a {
