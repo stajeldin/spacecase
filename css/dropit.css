@@ -86,20 +86,18 @@
      box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
      border-radius: 4px;
  }
-.settingsmenu .dropit-open .dropit-submenu:after {
-   content: " ";
-   position: absolute;
-   border-style: solid;
-   border-bottom-width: 10px;
-   border-top-width: 10px;
-   border-color: #009EB2 transparent;
-   display: block;
-   width: 0;
-   z-index: -1000;
-   top: 90px;
-   bottom: 10px;
-   right: 10px;
-  }
+ .settingsmenu .dropit-open .dropit-submenu:after {
+    content: " ";
+    position: absolute;
+    border-style: solid;
+    border-color: #fff transparent;
+    display: block;
+    width: 0;
+    z-index: -1000;
+    top: 100px;
+    transform: rotate(180deg);
+    right: 10px;
+   }
 .settingsmenu .dropit-open .dropit-submenu li {
    display: block;
    margin-bottom: 10px;
